@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/list_item_padding">
+
+    <TextView
+        android:id="@+id/item_title"
+        style="@style/MainStyle"
+        tools:text="Title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/line_margin">
+
+        <TextView
+            android:id="@+id/item_section"
+            style="@style/SecondaryStyle"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            tools:text="Section" />
+
+        <TextView
+            android:id="@+id/item_date"
+            style="@style/SecondaryStyle"
+            android:layout_alignParentRight="true"
+            tools:text="Date" />
+
+    </RelativeLayout>
+
+</LinearLayout>

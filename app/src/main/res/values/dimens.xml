@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_padding">14dp</dimen>
+    <dimen name="label_padding">6dp</dimen>
+    <dimen name="line_margin">12dp</dimen>
+</resources>
